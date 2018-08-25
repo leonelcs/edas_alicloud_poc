@@ -1,0 +1,361 @@
+____                 _                   ____              _
+|  _ \ __ _ _ __   __| | ___  _ __ __ _  | __ )  ___   ___ | |_
+| |_) / _` | '_ \ / _` |/ _ \| '__/ _` | |  _ \ / _ \ / _ \| __|
+|  __/ (_| | | | | (_| | (_) | | | (_| | | |_) | (_) | (_) | |_
+|_|   \__,_|_| |_|\__,_|\___/|_|  \__,_| |____/ \___/ \___/ \__|
+ :: Pandora Boot :: 2.1.7.8
+
+Set log4j.defaultInitOverride to true.
+JM.Log:INFO Init JM logger with Log4jLoggerFactory
+JM.Log:INFO Log root path: /home/lsilva/logs/
+JM.Log:INFO Set pandora log path: /home/lsilva/logs/pandora
+JM.Log:INFO Init JM logger with Log4jLoggerFactory
+JM.Log:INFO Log root path: /home/lsilva/logs/
+JM.Log:INFO Set pandora log path: /home/lsilva/logs/pandora
+JM.Log:INFO Init JM logger with Log4jLoggerFactory
+JM.Log:INFO Log root path: /home/lsilva/logs/
+JM.Log:INFO Set pandolet log path: /home/lsilva/logs/pandolet
+INFO: spas-client-initializer init
+Tue Jun 12 17:03:35 CEST 2018 spas-sdk-client's ModuleClassLoader JM.Log:INFO Init JM logger with Slf4jLoggerFactory success, spas-sdk-client's ModuleClassLoader
+Tue Jun 12 17:03:35 CEST 2018 spas-sdk-client's ModuleClassLoader JM.Log:INFO Log root path: /home/lsilva/logs/
+Tue Jun 12 17:03:35 CEST 2018 spas-sdk-client's ModuleClassLoader JM.Log:INFO Set spas log path: /home/lsilva/logs/spas
+Tue Jun 12 17:03:35 CEST 2018 eagleeye-core's ModuleClassLoader JM.Log:INFO Init JM logger with Slf4jLoggerFactory success, eagleeye-core's ModuleClassLoader
+Tue Jun 12 17:03:35 CEST 2018 eagleeye-core's ModuleClassLoader JM.Log:INFO Log root path: /home/lsilva/logs/
+Tue Jun 12 17:03:35 CEST 2018 eagleeye-core's ModuleClassLoader JM.Log:INFO Set metrics log path: /home/lsilva/logs/metrics
+JM.Log:INFO Init JM logger with Slf4jLoggerFactory success, vipserver-client's ModuleClassLoader
+JM.Log:INFO Log root path: /home/lsilva/logs/
+JM.Log:INFO Set vipsrv-logs log path: /home/lsilva/logs/vipsrv-logs
+17:03:36,778 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:03:36,780 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:03:36,782 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+17:03:36,787 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+17:03:36,787 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/yingzi-commons-0.0.1-SNAPSHOT.jar!/logback.xml]
+17:03:36,787 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+17:03:36,876 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@30c7da1e - URL [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+17:03:37,067 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:03:37,082 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:03:37,131 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:03:37,174 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:03:37,429 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [root] to INFO
+17:03:37,429 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:03:37,429 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:03:37,433 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:03:37,436 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@5b464ce8 - Registering current configuration as safe fallback point
+
+Tue Jun 12 17:03:37 CEST 2018 hsf's ModuleClassLoader JM.Log:INFO Init JM logger with Slf4jLoggerFactory success, hsf's ModuleClassLoader
+Tue Jun 12 17:03:37 CEST 2018 hsf's ModuleClassLoader JM.Log:INFO Log root path: /home/lsilva/logs/
+Tue Jun 12 17:03:37 CEST 2018 hsf's ModuleClassLoader JM.Log:INFO Set hsf log path: /home/lsilva/logs/hsf
+*******************HSF PORT:12200 **************
+*************Pandora QOS PORT:12201 **************
+*************Tomcat Monitor Port:8006 **************
+*******************Sentinel PORT:8719 **************
+
+
+	****************************************************************************************
+	**                                                                                    **
+	**	                                 Pandora Container                                **
+	**                                                                                    **
+	**	Pandora Host:     192.168.122.1                                                   **
+	**	Pandora Version:  2.1.4                                                           **
+	**	SAR Version:      edas.sar.V3.4.3.dev                                             **
+	**	Package Time:     2018-06-12 17:03:32                                             **
+	**                                                                                    **
+	**	Plug-in Modules: 16                                                               **
+	**                                                                                    **
+	**	   metrics .......................................... 1.6.4-SNAPSHOT              **
+	**	   edas-assist ...................................... 2.0                         **
+	**	   pandora-qos-service .............................. edas215                     **
+	**	   pandolet ......................................... 1.0.0                       **
+	**	   spas-sdk-client .................................. 1.2.7                       **
+	**	   eagleeye-core .................................... 1.6.4-SNAPSHOT              **
+	**	   tddl-driver ...................................... 1.0.5-SNAPSHOT              **
+	**	   vipserver-client ................................. 4.6.8-SNAPSHOT              **
+	**	   diamond-client ................................... 3.8.8                       **
+	**	   spas-sdk-service ................................. 1.2.7                       **
+	**	   config-client .................................... 1.9.4                       **
+	**	   unitrouter ....................................... 1.0.11                      **
+	**	   sentinel-plugin .................................. 2.12.11                     **
+	**	   ons-client ....................................... 1.7.1-EagleEye-SNAPSHOT     **
+	**	   hsf .............................................. 2.2.5.0-Dubbox              **
+	**	   pandora-framework ................................ 2.0.8                       **
+	**                                                                                    **
+	**	[WARNING] All these plug-in modules will override maven pom.xml dependencies.     **
+	**	More: http://gitlab.alibaba-inc.com/middleware-container/pandora/wikis/home       **
+	**                                                                                    **
+	****************************************************************************************
+
+
+
+INFO: spas-client-initializer start
+JM.Log:INFO Init JM logger with Log4jLoggerFactory
+JM.Log:INFO Log root path: /home/lsilva/logs/
+JM.Log:INFO Set pandora log path: /home/lsilva/logs/pandora
+Init available components
+Scanning for available components in the runtime
+Starting available components
+17:03:38,263 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:03:38,263 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:03:38,263 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+17:03:38,266 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+17:03:38,266 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/yingzi-commons-0.0.1-SNAPSHOT.jar!/logback.xml]
+17:03:38,266 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+17:03:38,305 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@3a03464 - URL [jar:file:/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+17:03:38,343 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:03:38,345 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:03:38,359 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:03:38,368 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:03:38,417 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [root] to INFO
+17:03:38,417 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:03:38,417 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:03:38,419 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:03:38,420 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2d3fcdbd - Registering current configuration as safe fallback point
+
+[Pandora Boot] Try to find logback system config file.
+[Pandora Boot] Did not find logback system config file, skip.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.8.RELEASE)
+
+Skip ProjectInfoInitializer.
+17:03:40.060 [main] INFO  c.y.c.envc.HSFProviderApplication - Starting HSFProviderApplication v0.0.1-SNAPSHOT on localhost.localdomain with PID 6418 (/home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target/yingzi-center-0.0.1-SNAPSHOT.jar started by lsilva in /home/lsilva/repository/alibaba/yingzi-center/yingzi-center/target)
+17:03:40.065 [main] INFO  c.y.c.envc.HSFProviderApplication - The following profiles are active: dev
+17:03:40.181 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a8e6209: startup date [Tue Jun 12 17:03:40 CEST 2018]; root of context hierarchy
+17:03:40.583 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+17:03:41.912 [main] INFO  c.a.b.h.p.HsfProviderAnnotationRegistrar - [HSF Starter] register HSF provider bean: asyncEchoServiceImpl#HSFProvider, targetClass: com.yingzi.center.envc.service.async.impl.AsyncEchoServiceImpl
+17:03:41.925 [main] INFO  c.a.b.h.p.HsfProviderAnnotationRegistrar - [HSF Starter] register HSF provider bean: echoServiceImpl#HSFProvider, targetClass: com.yingzi.center.envc.service.impl.EchoServiceImpl
+17:03:41.936 [main] INFO  c.a.b.h.p.HsfProviderAnnotationRegistrar - [HSF Starter] register HSF provider bean: realTimeReaderServiceImpl#HSFProvider, targetClass: com.yingzi.center.envc.service.impl.RealTimeReaderServiceImpl
+17:03:41.949 [main] INFO  c.a.b.h.p.HsfProviderAnnotationRegistrar - [HSF Starter] register HSF provider bean: announceRPCServiceImpl#HSFProvider, targetClass: com.yingzi.center.envc.service.impl.AnnounceRPCServiceImpl
+17:03:42.208 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:03:42.332 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:03:42.380 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.yingzi.center.envc.domain.repository.ArgosDeviceRepository.
+17:03:42.381 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.yingzi.center.envc.domain.repository.ArgosSlaveRepository.
+17:03:43.929 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 18081 (http)
+17:03:43.948 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:03:43.950 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+17:03:44.060 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:03:44.060 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3879 ms
+17:03:44.295 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+17:03:44.299 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:03:44.300 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:03:44.300 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:03:44.300 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:03:46.104 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+17:03:46.140 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17:03:46.308 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+17:03:46.310 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+17:03:46.312 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+17:03:46.396 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+17:03:46.773 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+17:03:48.498 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:03:49.088 [main] INFO  c.y.c.e.m.MqttMiddlewareClient - Connecting middlewareClient
+17:03:49.169 [main] INFO  c.y.c.e.m.MqttMiddlewareClient - middlewareClient Connected
+17:03:49.173 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - Connecting deviceClient
+17:03:49.201 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - deviceClient Connected
+17:03:49.225 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Alarm/Change/#
+17:03:49.225 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.240 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.240 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Alarm/Cache/Ready/+
+17:03:49.240 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.251 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.251 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Alarm/Cache/Response/+
+17:03:49.252 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.263 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.263 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Publish a 'get' request on topic Argos/Function/Cache/Ready/Ping
+17:03:49.263 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Function/Cache/Ready/Ping in the cloud/devices
+17:03:49.282 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+17:03:49.305 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Function/Cache/Ready/+
+17:03:49.305 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.316 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.316 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Function/Cache/Response/+
+17:03:49.316 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.327 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.327 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Function/Change/#
+17:03:49.327 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.338 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.338 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Publish a 'get' request on topic Argos/Function/Cache/Ready/Ping
+17:03:49.338 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Function/Cache/Ready/Ping in the cloud/devices
+17:03:49.353 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+17:03:49.368 [main] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Entrou aqui - Leonel
+17:03:49.368 [main] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Subscribing to Argos/Announce/Device/+
+17:03:49.368 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.380 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message  just arrived at topic Argos/Function/Cache/Ready/Ping 
+17:03:49.380 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:49.391 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.391 [main] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Subscribing to Argos/Online/State/+
+17:03:49.391 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.403 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.413 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Slavelist/Device/#
+17:03:49.414 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:49.425 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 1 just arrived at topic Argos/Online/State/02:00:00:00:10:19 
+17:03:49.425 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - The message 1 is received in the topic Argos/Online/State/02:00:00:00:10:19
+17:03:49.425 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Sending the message 1 to the middleware mqtt topic Argos/Online/State/02:00:00:00:10:19
+17:03:49.425 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - Sending message 1 to the topic Argos/Online/State/02:00:00:00:10:19 in the cloud/websocket
+17:03:49.426 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - == Finish Publishing == 
+17:03:49.426 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - device Id is 02:00:00:00:10:19
+17:03:49.441 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Device Id 020000001019 status true saved on redis
+17:03:49.478 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:49.636 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:49.637 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 0  just arrived at topic Argos/Online/State/lala 
+17:03:49.637 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - The message 0  is received in the topic Argos/Online/State/lala
+17:03:49.637 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Sending the message 0  to the middleware mqtt topic Argos/Online/State/lala
+17:03:49.637 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - Sending message 0  to the topic Argos/Online/State/lala in the cloud/websocket
+17:03:49.653 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - == Finish Publishing == 
+17:03:49.654 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - device Id is lala
+17:03:49.654 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Device Id lala status false saved on redis
+17:03:49.666 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:49.666 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 1 just arrived at topic Argos/Online/State/02:00:00:00:10:55 
+17:03:49.666 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - The message 1 is received in the topic Argos/Online/State/02:00:00:00:10:55
+17:03:49.666 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Sending the message 1 to the middleware mqtt topic Argos/Online/State/02:00:00:00:10:55
+17:03:49.666 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - Sending message 1 to the topic Argos/Online/State/02:00:00:00:10:55 in the cloud/websocket
+17:03:49.667 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - == Finish Publishing == 
+17:03:49.668 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - device Id is 02:00:00:00:10:55
+17:03:49.668 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Device Id 020000001055 status true saved on redis
+17:03:49.679 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+Tue Jun 12 17:03:49 CEST 2018 diamond-client's ModuleClassLoader JM.Log:INFO Init JM logger with Slf4jLoggerFactory success, diamond-client's ModuleClassLoader
+Tue Jun 12 17:03:49 CEST 2018 diamond-client's ModuleClassLoader JM.Log:INFO Log root path: /home/lsilva/logs/
+Tue Jun 12 17:03:49 CEST 2018 diamond-client's ModuleClassLoader JM.Log:INFO Set diamond-client log path: /home/lsilva/logs/diamond-client
+17:03:49.904 [main] INFO  c.t.d.identify.CredentialWatcher - [] [] [] No credential found
+17:03:50.142 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 1 just arrived at topic Argos/Function/Change/02:00:00:00:10:19/1/544 
+17:03:50.143 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Receiving a message 1 on topic Argos/Function/Change/02:00:00:00:10:19/1/544
+17:03:50.177 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:51.856 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a8e6209: startup date [Tue Jun 12 17:03:40 CEST 2018]; root of context hierarchy
+17:03:52.188 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:03:52.190 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:03:52.193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/status.taobao]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.taobao.pandora.boot.spring.mvc.StatusTaobaoController.statusTaobao() throws java.io.IOException
+17:03:52.329 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:03:52.340 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:03:52.515 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:03:53.340 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:03:53.371 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+17:03:53.455 [pool-8-thread-1] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Publish a 'get' request on topic Argos/Function/Cache/Ready/Ping
+17:03:53.457 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Function/Cache/Ready/Ping in the cloud/devices
+17:03:53.483 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+17:03:53.485 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:03:53.504 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+Tue Jun 12 17:03:54 CEST 2018 config-client's ModuleClassLoader JM.Log:INFO Init JM logger with Slf4jLoggerFactory success, config-client's ModuleClassLoader
+Tue Jun 12 17:03:54 CEST 2018 config-client's ModuleClassLoader JM.Log:INFO Log root path: /home/lsilva/logs/
+17:03:54.629 [HSF-Framework-ExportRefer-6-thread-1] INFO ConfigClientLogger - [] [] [] JM_CC_LOG_RETAIN_COUNT:6, JM_LOG_FILE_SIZE:200MB
+Tue Jun 12 17:03:54 CEST 2018 config-client's ModuleClassLoader JM.Log:INFO Set configclient log path: /home/lsilva/logs/configclient
+17:03:54.810 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18081"]
+17:03:54.828 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18081"]
+17:03:54.829 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:03:54.948 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 18081 (http)
+4
+alarmsTopicServiceImpl
+17:03:54.961 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Alarm/Change/#
+17:03:54.961 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:54.961 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - Connecting deviceClient
+17:03:54.993 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - deviceClient Connected
+17:03:55.005 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.005 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Alarm/Cache/Ready/+
+17:03:55.005 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.039 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.039 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Alarm/Cache/Response/+
+17:03:55.039 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.051 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.052 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Publish a 'get' request on topic Argos/Function/Cache/Ready/Ping
+17:03:55.052 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Function/Cache/Ready/Ping in the cloud/devices
+17:03:55.069 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+functionsTopicServiceImpl
+17:03:55.069 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Function/Cache/Ready/+
+17:03:55.069 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.081 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.081 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Function/Cache/Response/+
+17:03:55.081 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.088 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing VersionElement
+17:03:55.089 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing PublisherRegResultElement
+17:03:55.090 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement
+17:03:55.092 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.092 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Function/Change/#
+17:03:55.092 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.103 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.104 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Publish a 'get' request on topic Argos/Function/Cache/Ready/Ping
+17:03:55.104 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Function/Cache/Ready/Ping in the cloud/devices
+17:03:55.114 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing VersionElement
+17:03:55.115 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing PublisherRegResultElement
+17:03:55.115 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement
+17:03:55.115 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing PublisherRegResultElement
+17:03:55.115 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement
+17:03:55.116 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing PublisherRegResultElement
+17:03:55.116 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement
+17:03:55.118 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+announceTopicServiceImpl
+17:03:55.118 [main] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Entrou aqui - Leonel
+17:03:55.118 [main] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Subscribing to Argos/Announce/Device/+
+17:03:55.118 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.129 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message  just arrived at topic Argos/Function/Cache/Ready/Ping 
+17:03:55.130 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:55.140 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.140 [main] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Subscribing to Argos/Online/State/+
+17:03:55.140 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.140 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 976 just arrived at topic Argos/Function/Change/02:00:00:00:10:19/0/9504 
+17:03:55.140 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Receiving a message 976 on topic Argos/Function/Change/02:00:00:00:10:19/0/9504
+17:03:55.152 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+slaveTopicServiceImpl
+17:03:55.152 [main] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Subscribing to Argos/Slavelist/Device/#
+17:03:55.152 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == START SUBSCRIBER ==
+17:03:55.152 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:55.163 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 1 just arrived at topic Argos/Online/State/02:00:00:00:10:19 
+17:03:55.163 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - The message 1 is received in the topic Argos/Online/State/02:00:00:00:10:19
+17:03:55.163 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Sending the message 1 to the middleware mqtt topic Argos/Online/State/02:00:00:00:10:19
+17:03:55.163 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - Connecting middlewareClient
+17:03:55.191 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - middlewareClient Connected
+17:03:55.192 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - Sending message 1 to the topic Argos/Online/State/02:00:00:00:10:19 in the cloud/websocket
+17:03:55.192 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - == Finish Publishing == 
+17:03:55.193 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - device Id is 02:00:00:00:10:19
+17:03:55.193 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Device Id 020000001019 status true saved on redis
+17:03:55.205 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:55.205 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 0  just arrived at topic Argos/Online/State/lala 
+17:03:55.205 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - The message 0  is received in the topic Argos/Online/State/lala
+17:03:55.205 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Sending the message 0  to the middleware mqtt topic Argos/Online/State/lala
+17:03:55.205 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - Sending message 0  to the topic Argos/Online/State/lala in the cloud/websocket
+17:03:55.213 [main] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Subscription == 
+17:03:55.216 [main] INFO  c.y.c.envc.HSFProviderApplication - Started HSFProviderApplication in 16.564 seconds (JVM running for 23.191)
+Service(pandora boot) startup in 23018 ms
+17:03:55.252 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - == Finish Publishing == 
+17:03:55.252 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - device Id is lala
+17:03:55.252 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Device Id lala status false saved on redis
+17:03:55.264 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:55.264 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 1 just arrived at topic Argos/Online/State/02:00:00:00:10:55 
+17:03:55.264 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - The message 1 is received in the topic Argos/Online/State/02:00:00:00:10:55
+17:03:55.264 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Sending the message 1 to the middleware mqtt topic Argos/Online/State/02:00:00:00:10:55
+17:03:55.264 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - Sending message 1 to the topic Argos/Online/State/02:00:00:00:10:55 in the cloud/websocket
+17:03:55.265 [MQTT Call: deviceClient] INFO  c.y.c.e.m.MqttMiddlewareClient - == Finish Publishing == 
+17:03:55.265 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - device Id is 02:00:00:00:10:55
+17:03:55.265 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.AnnounceTopicServiceImpl - Device Id 020000001055 status true saved on redis
+17:03:55.276 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:03:55.366 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message 975 just arrived at topic Argos/Function/Change/02:00:00:00:10:55/0/9504 
+17:03:55.366 [MQTT Call: deviceClient] INFO  c.y.c.e.t.s.i.FunctionsTopicServiceImpl - Receiving a message 975 on topic Argos/Function/Change/02:00:00:00:10:55/0/9504
+17:03:55.379 [MQTT Call: deviceClient] INFO  c.y.c.e.m.DefaultMqttMessageListener - The message was treated
+17:04:23.505 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:04:23.505 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Connecting deviceClient
+17:04:23.531 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - deviceClient Connected
+17:04:23.547 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+17:04:53.547 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:04:53.548 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Connecting deviceClient
+17:04:53.576 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - deviceClient Connected
+17:05:23.586 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:05:53.588 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:06:23.591 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:06:23.591 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Connecting deviceClient
+17:06:23.619 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - deviceClient Connected
+17:06:23.636 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - == Finish Publishing == 
+17:06:53.637 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:07:23.645 [pool-8-thread-1] INFO  c.y.c.envc.messages.MqttDeviceClient - Sending message  to the topic Argos/Announce/Ping in the cloud/devices
+17:07:30.939 [Thread-37] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a8e6209: startup date [Tue Jun 12 17:03:40 CEST 2018]; root of context hierarchy
+17:07:30.942 [Thread-37] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+17:07:30.951 [Thread-37] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'mqttDeviceClient': O cliente está desconectado (32101)
+17:07:30.954 [Thread-37] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:07:30.963 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing VersionElement
+17:07:30.963 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement
+17:07:30.964 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement
+17:07:30.989 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing VersionElement
+17:07:30.990 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement
+17:07:30.991 [ConfigClientWorker-Thread] DEBUG ConfigClientLogger - [] [] [] [Message] Processing UserDataResultElement

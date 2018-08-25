@@ -1,0 +1,56 @@
+{
+	"properties": [
+		{
+  			"name": "mqtt.instance1.server",
+  			"type": "java.lang.String",
+  			"description": "This is the server address of the MQtt server instance1 running in the environment"
+		},
+		{
+  			"name": "mqtt.instance1.port",
+  			"type": "java.lang.String",
+  			"description": "This is the server port of the MQtt server instance1 running in the environment"
+		},
+				{
+  			"name": "mqtt.instance1.user",
+  			"type": "java.lang.String",
+  			"description": "This is the server user of the MQtt server instance1 running in the environment"
+		},
+		{
+  			"name": "mqtt.instance1.password",
+  			"type": "java.lang.String",
+  			"description": "This is the server password of the MQtt server instance1 running in the environment"
+		},
+		{
+  			"name": "mqtt.instance1.topic",
+  			"type": "java.lang.String",
+  			"description": "This is the server topic name of the MQtt server instance1 running in the environment"
+		},
+		{
+  			"name": "mqtt.instance2.server",
+  			"type": "java.lang.String",
+  			"description": "This is the server address of the MQtt server instance2 running in the environment"
+		},
+		{
+  			"name": "mqtt.instance2.port",
+  			"type": "java.lang.String",
+  			"description": "This is the server port of the MQtt server instance2 running in the environment"
+		},
+				{
+  			"name": "mqtt.instance2.user",
+  			"type": "java.lang.String",
+  			"description": "This is the server user of the MQtt server instance2 running in the environment"
+		},
+		{
+  			"name": "mqtt.instance2.password",
+  			"type": "java.lang.String",
+  			"description": "This is the server password of the MQtt server instance2 running in the environment"
+		},
+		{
+  			"name": "mqtt.instance2.topic",
+  			"type": "java.lang.String",
+  			"description": "This is the server topic name of the MQtt server instance2 running in the environment"
+		}
+
+	]
+	
+}

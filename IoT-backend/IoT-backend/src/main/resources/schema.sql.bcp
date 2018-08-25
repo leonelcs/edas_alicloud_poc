@@ -1,0 +1,72 @@
+CREATE TABLE IF NOT EXISTS `microfan`.`argos_device` (
+
+  `device_id` VARCHAR(255) NOT NULL,
+
+  `controller_version` VARCHAR(255) NULL DEFAULT NULL,
+
+  `device_location` VARCHAR(255) NULL DEFAULT NULL,
+
+  `device_name` VARCHAR(255) NULL DEFAULT NULL,
+
+  `device_pin` VARCHAR(255) NULL DEFAULT NULL,
+
+  `hmi_version` VARCHAR(255) NULL DEFAULT NULL,
+
+  `ip_address` VARCHAR(255) NULL DEFAULT NULL,
+
+  `local_ip_address` VARCHAR(255) NULL DEFAULT NULL,
+
+  `mac_address` VARCHAR(255) NULL DEFAULT NULL,
+
+  `product_reference` VARCHAR(255) NULL DEFAULT NULL,
+
+  `registered_on` DATETIME NULL DEFAULT NULL,
+
+  PRIMARY KEY (`device_id`));
+ 
+
+CREATE TABLE IF NOT EXISTS `microfan`.`argos_slave` (
+
+  `device_id` VARCHAR(45) NOT NULL,
+
+  `argos_id` INT(11) NOT NULL,
+
+  `name` VARCHAR(45) NULL DEFAULT NULL,
+
+  `type` INT(11) NOT NULL,
+
+  `version` INT(11) NULL DEFAULT NULL,
+
+  `area_id` INT(11) NULL DEFAULT NULL,
+
+  `building_id` INT(11) NULL DEFAULT NULL,
+
+  `department_id` INT(11) NULL DEFAULT NULL,
+
+  `compartment_id` INT(11) NULL DEFAULT NULL,
+
+  `animal_id` INT(11) NULL DEFAULT NULL,
+
+  PRIMARY KEY (`device_id`, `argos_id`),
+
+  UNIQUE INDEX `argosid_bridgeid_UNIQUE` (`argos_id` ASC, `device_id` ASC),
+
+  INDEX `fk_argos_control_argos_bridge1_idx` (`device_id` ASC));
+
+ALTER TABLE `microfan`.`argos_slave`
+ADD FOREIGN KEY(`device_id`) REFERENCES `microfan`.`argos_device`(`device_id`);
+ 
+
+CREATE TABLE IF NOT EXISTS `microfan`.`farm_has_slave` (
+
+  `farm_id` INT(11) NOT NULL,
+
+  `device_id` VARCHAR(45) NOT NULL,
+
+  `argos_id` INT(11) NOT NULL,
+
+  PRIMARY KEY (`farm_id`, `device_id`, `argos_id`));
+
+ALTER TABLE `microfan`.`farm_has_slave`
+ADD FOREIGN KEY(`device_id`, `argos_id`) REFERENCES `microfan`.`argos_slave`(`device_id`, `argos_id`);
+

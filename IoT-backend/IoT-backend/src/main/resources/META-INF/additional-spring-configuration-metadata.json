@@ -1,0 +1,51 @@
+{
+	"properties": [
+		{
+  			"name": "mqtt.deviceInstance.server",
+  			"type": "java.lang.String",
+  			"description": "This is the server address of the MQtt server instance1 running in the environment"
+		},
+		{
+  			"name": "mqtt.deviceInstance.port",
+  			"type": "java.lang.String",
+  			"description": "This is the server port of the MQtt server instance1 running in the environment"
+		},
+				{
+  			"name": "mqtt.deviceInstance.user",
+  			"type": "java.lang.String",
+  			"description": "This is the server user of the MQtt server instance1 running in the environment"
+		},
+		{
+  			"name": "mqtt.deviceInstance.password",
+  			"type": "java.lang.String",
+  			"description": "This is the server password of the MQtt server instance1 running in the environment"
+		},
+		{
+  			"name": "mqtt.middlewareInstance.server",
+  			"type": "java.lang.String",
+  			"description": "This is the server address of the MQtt server instance2 running in the environment"
+		},
+		{
+  			"name": "mqtt.middlewareInstance.port",
+  			"type": "java.lang.String",
+  			"description": "This is the server port of the MQtt server instance2 running in the environment"
+		},
+				{
+  			"name": "mqtt.middlewareInstance.user",
+  			"type": "java.lang.String",
+  			"description": "This is the server user of the MQtt server instance2 running in the environment"
+		},
+		{
+  			"name": "mqtt.middlewareInstance.password",
+  			"type": "java.lang.String",
+  			"description": "This is the server password of the MQtt server instance2 running in the environment"
+		},
+		{
+  			"name": "argos.announce.pingMilliseconds",
+  			"type": "java.lang.Long",
+  			"description": "The time of the ping in the announce mqtt cloud to device topic"
+		}
+
+	]
+	
+}

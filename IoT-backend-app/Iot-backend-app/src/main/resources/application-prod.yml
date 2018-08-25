@@ -1,0 +1,26 @@
+server:
+  port: 18082
+
+spring:
+  application:
+    name: hsf-consumer
+  hsf:
+    version: 1.0.0
+    timeout: 3000
+
+logging:
+  level:
+    root: DEBUG
+    org:
+      springframework:
+        security: DEBUG
+
+
+mqtt:
+  middlewareInstance:
+    server: localhost
+    port: 1884
+    user: microfan
+    password: microfan
+
+  

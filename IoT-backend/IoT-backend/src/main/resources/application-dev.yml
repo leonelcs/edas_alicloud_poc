@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: hsf-provider
+    
+  hsf:
+    version: 1.0.0
+    timeout: 1000
+    
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+      
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/microfan
+    username: root
+    password: M!cr0f@n
+
+logging:
+  level:
+    root: INFO
+
+    org:
+      springframework:
+        security: DEBUG
+
+server:
+  port: 18081
+
+redis:
+  server: localhost
+  port: 6379
+  password:
+  
+
+
+mqtt:
+  deviceInstance:
+    server: envc.services.yingzi.com
+    port: 1883
+    user: microfan
+    password: microfan
+
+  middlewareInstance:
+    server: localhost
+    port: 1884
+    user: microfan
+    password: microfan
+    
+argos:
+  announce:
+    pingMilliseconds: 3000000
+    
+
+  cache:
+    pingMilliseconds: 1800000
+  subscribe:
+    pingMilliseconds: 60000
+
